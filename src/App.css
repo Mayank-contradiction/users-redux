@@ -1,0 +1,30 @@
+.detail-view {
+    min-height: 180px;
+}
+
+.clickable-card, .custom-card {
+    background-color: #f2f8f9;
+    border-radius: 4px;
+    padding: 32px 24px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 2px solid #62e5fc;
+}
+
+.clickable-card:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+}
+
+.clickable-card-active {
+    background-color: white;
+    color: #1f9cb3;
+}
+
+.card-text-color{
+    color: #1f9cb3;
+}
