@@ -26,9 +26,6 @@ function App() {
           count.current = 10;
         }
       }
-      if(usersError){
-        alert('There is some problem in fetching API. Please refresh the page');
-      }
     }
   }, [dispatch, usersLoading, users, usersError]);
 
