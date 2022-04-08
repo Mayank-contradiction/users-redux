@@ -3,7 +3,7 @@ import {
     GET_SINGLE_USER_REQUEST, GET_SINGLE_USER_SUCCESS, GET_SINGLE_USER_FAIL
 } from '../constants/userConstants';
 
-const BASE_URL = 'https:/reqres.in/';
+const BASE_URL = 'https://reqres.in/';
 
 // Load list of all users
 export const getAllUsers = (pageNo) => async (dispatch) => {
